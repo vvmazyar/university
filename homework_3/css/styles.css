@@ -1,0 +1,51 @@
+body {
+    font-family: Montserrat, serif;
+}
+h1 {
+    color: #FB6D3A;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2 {
+    color: #710151;
+    text-transform: uppercase;
+}   
+span {
+    color: #FB6D3A;
+}
+.contact-info a {
+    display: block;
+}
+.about-me p {
+    color: #595959;
+}
+.experience__date {
+    color: #710151;
+}
+.experience__text {
+    color: #595959;
+}
+.education p {
+    color: #595959;
+}
+footer a {
+    display: block;
+    text-transform: uppercase;
+}
+footer a:not(:last-child) {
+    margin-bottom: 10px;
+}
+table{
+    margin: 0 auto;
+    border-spacing: 0;
+    text-align: center;
+    color: #FB6D3A;
+    font-weight: 700;
+}
+table, td, th{
+    border: 2px solid #710151;
+}
+td, th{
+    width: 60px;
+    height: 25px;
+}
