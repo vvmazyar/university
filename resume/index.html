@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- мова роботи -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- підключений шрифт -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap" rel="stylesheet">
+    <!-- підключений файл зі стилями -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- робоча назва -->
+    <title>Resume</title>
+</head>
+<body>
+    <header></header>
+    <main class="main">
+        <!-- ліва колонка резюме -->
+        <div class="main__row row-main">
+            <!-- фото -->
+            <img src="img/portrait.jfif" alt="portrait">
+            <!-- блок з контактною інф-ю -->
+            <div class="row-main__contact-info contact-info">
+                <!-- заголовок блоку -->
+                <h2 class="contact-info__title title">Contact info</h2>
+                <!-- текстовий блок з номером телефону -->
+                <p>+38(096)976-25-63</p>
+                <!-- текстовий блок з ел.почтою -->
+                <p>v_maziar@gmail.com</p>
+                <!-- посилання на соц.мережі та ел.ресурси -->
+                <a href="#">Telegram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GIT</a>
+            </div>
+            <!-- блок з інф-ю про тех.навички -->
+            <div class="row-main__block block-row">
+                <!-- заголовок блоку -->
+                <h2 class="block-row__title title">Technical skills</h2>
+                <!-- список-перелік навичок -->
+                <ul class="block-row__list">
+                    <!-- елементи списку -->
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>SaaS</li>
+                    <li>React</li>
+                    <li>GIT</li>
+                    <li>WebPack</li>
+                    <li>JS</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+            <!-- блок про знання іноз.мов -->
+            <div class="row-main__block block-row">
+                <!-- заголовок блоку -->
+                <h2 class="block-row__title title">Languages</h2>
+                <!-- список мов -->
+                <ul class="block-row__list">
+                    <!-- елементи списку -->
+                    <li>Ukrainian - native</li>
+                    <li>English - Advanced</li>
+                    <li>Polish - Upper-Intermediate</li>
+                    <li>German - Intermediate</li>
+                </ul>
+            </div>
+        </div>
+        <!-- права колонка резюме -->
+        <div class="main__information information-main">
+            <!-- підзаголовок - посада -->
+            <h3 class="information-main__position">Front-End Developer</h3>
+            <!-- головний заголовок - ім'я -->
+            <h1 class="information-main__name">Viktoria Maziar</h1>
+            <!-- список - структурована інф-я про мене -->
+            <ul class="information-main__list">
+                <!-- елементи списку -->
+                <li>I'm an enthusiastic and detail-oriented Frontend developer seeking an entry-level position with company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects.</li>
+                <li>Front-end developer with experience in creating SPA using React, HTML, Material UI</li>
+                <li>Knowledge in User Interface and debugging processes</li>
+                <li>Currently improving my skills in react native</li>
+                <li>Usually I spend my leisure time om learning new technologies and improwing old ones</li>
+            </ul>
+            <!-- блок з інф-ю про досвід роботи -->
+            <div class="experience">
+                <!-- заголовок блоку -->
+                <h2 class="experience__title">Work experience</h2>
+                <!-- блок про досвід №1 -->
+                <div class="experience__block block-experience">
+                    <!-- підзаголовок - посада -->
+                    <h3 class="block-experience__position">Frontend Engineer <span>ThinkEmpire</span></h3>
+                    <!-- текстова інф-я - термін та місце роботи -->
+                    <p class="block-experience__date">September 2019 - up to now   |  New York</p>
+                    <!-- текстова інф-я про набутий досвід -->
+                    <p class="block-experience__text">Accomplished the development of the company's German website, using Angular, Typescript, NGRX and ngx-translate.</p>
+                    <p class="block-experience__text">Automated system deployment with Docker, Nginx on Amazon Cloud.</p>
+                </div>
+                <!-- блок про досвід №2 -->
+                <div class="experience__block block-experience">
+                    <!-- підзаголовок - посада -->
+                    <h3 class="block-experience__position">Frontend Engineer Intern <span>ThinkEmpire</span></h3>
+                    <!-- текстова інф-я - термін та місце роботи -->
+                    <p class="block-experience__date">June 2019 - August 2019   |   Manhattan</p>
+                    <!-- текстова інф-я про набутий досвід -->
+                    <p class="block-experience__text">Cut the company's site web loading time by 40% by optimizing the SPA bundle size, leading to better user experience.</p>
+                    <p class="block-experience__text">Expanded reach of the website by building RESTful API to support user replies and notifications.</p>
+                </div>
+            </div>
+            <!-- блок про освіту -->
+            <div class="education">
+                <!-- заголовок блоку -->
+                <h2 class="education__title">Education</h2>
+                <!-- підзаголовок - назва ВНЗ -->
+                <h3 class="education__subtitle"><span>Taras Shevchenko National University of Kyiv</span></h3>
+                <!-- підзаголовок - освіта -->
+                <h3 class="education__subtitle">Technological education</h3>
+                <!-- текстова інф-я про термін та місце навчання -->
+                <p class="education__text">September 2009 - June 2014   |   Ukraine</p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

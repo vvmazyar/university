@@ -1,0 +1,165 @@
+/* підлючила файл з обнуленням стилів */
+@import url(reset.css);
+/* стилі для всіх тегів */
+body {
+    font-family: Montserrat, sans-serif;
+    line-height: 24px;
+}
+/* стилі для частини резюме main */
+.main {
+    display: flex;
+}
+span {
+    color: #FB6D3A;
+}
+/* стилі для заголовка 1 рівня */
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #FB6D3A;
+    margin-bottom: 24px;
+}
+/* стилі для лівої колонки резюме */
+.main__row {
+    max-width: 440px;
+    background-color: #3D002C;;
+    padding: 40px 40px;
+}
+/* стилі для фото */
+img {
+    max-width: 290px;
+    max-height: 342px;
+    border-radius: 20px;
+    margin-bottom: 55px;
+}
+.row-main__contact-info {
+    margin-bottom: 40px;
+}
+/* стилі для заголовків блоків лівої колонки резюме */
+.title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 8px;
+}
+/* стилі для посилань та параграфів блоку з контактною інф-ю */
+.contact-info a, p {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+/* стилі для посилань блоку з контактною інф-ю */
+.contact-info a {
+    display: block;
+}
+/* стилі для посилань блоку з контактною інф-ю при наведенні */
+.contact-info a:hover {
+    color: #FB6D3A;;
+}
+/* стилі для  параграфів блоку з контактною інф-ю */
+.contact-info p {
+    margin-bottom: 4px;
+}
+/* стилі для посилань блоку з контактною інф-ю (окрім останнього посилання) */
+.contact-info a:not(:last-child) {
+    margin-bottom: 4px;
+}
+/* стилі для блоків (окрім останнього) лівої колонки резюме */
+.block-row:not(:last-child) {
+    margin-bottom: 40px;
+}
+/* стилі для пунктів списку в лівій колонці резюме */
+.block-row__list li{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+/* стилі для пунктів списку (окрім останнього) в лівій колонці резюме */
+.block-row__list li:not(:last-child) {
+    margin-bottom: 4px;
+}
+/* стилі для правої колонки резюме */
+.information-main {
+    padding: 130px 100px;
+}
+/* стилі для підзаголовку з посадою */
+.information-main__position {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+/* стилі для списку */
+.information-main__list { 
+    font-size: 20px;
+    text-align: justify;
+    color: #595959;
+    margin-bottom: 50px;
+}
+/* стилі для пунктів списку */
+.information-main__list li:not(:last-child) {
+    margin-bottom: 10px;
+}
+/* стилі для блоку про досвід роботи */
+.experience {
+    margin-bottom: 50px;
+}
+/* стилі для заголовку блоку про досвід роботи */
+.experience__title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+/* стилі для підзаголовку - посада */
+.block-experience__position {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+/* стилі для параграфу */
+.block-experience__date {
+    font-size: 18px;
+    line-height: 22px;
+    color: #3D002C;
+    margin-bottom: 10px;
+}
+/* стилі для параграфів */
+.block-experience__text {
+    font-size: 20px;
+    text-align: justify;
+    color: #595959;
+}
+/* стилі для параграфів (окрім останнього) */
+.block-experience__text:not(:last-child) {
+    margin-bottom: 10px;
+}
+/* стилі для блоків (окрім останнього) */
+.block-experience:not(:last-child) {
+    margin-bottom: 24px;
+}
+/* стилі для заголовку блоку про освіту */
+.education__title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+/* стилі для підзаголовку блоку про освіту */
+.education__subtitle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+/* стилі дял параграфу блоку про освіту */
+.education__text {
+    font-size: 18px;
+    line-height: 22px;
+    color: #3D002C;
+}
